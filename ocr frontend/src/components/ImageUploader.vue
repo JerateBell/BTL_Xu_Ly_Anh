@@ -84,6 +84,12 @@ body {
   background-color: #f4f4f9;
 }
 
+h2{
+  text-align : center;
+  
+}
+
+
 #app {
   max-width: 800px;
   padding: 20px;
