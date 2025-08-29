@@ -3,11 +3,11 @@
     <h1>Image Processing Application</h1>
     <input type="file" @change="onFileChange" accept="image/*" />
     <img v-if="image" :src="image" alt="Uploaded" class="preview" />
-
+    <div>Toi la ai</div>
     <div v-if="image">
       <select v-model="method">
         <option value="otsu">Otsu Thresholding</option>
-        <option value="distance_transform">Distance Transform</option>
+      
         <option value="morphological_opening">Morphological Opening</option>
       </select>
       <button @click="processImage">Process Image</button>
